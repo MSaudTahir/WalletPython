@@ -6,3 +6,4 @@ def test_getAmount():
   assert(obj.getAmount() == 400)
   
 test_getAmount()
+print('Tests ran successfully')
