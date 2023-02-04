@@ -1,0 +1,10 @@
+name: unit test on push
+on: push
+jobs:
+  unit-test:
+    runs-on: ubuntu latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+    - name: testing
+      run: python test.py
