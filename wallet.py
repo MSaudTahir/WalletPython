@@ -12,3 +12,4 @@ class Wallet:
     
     def removeAmount(self, amount):
         self.balance = self.balance - amount
+	return 0
