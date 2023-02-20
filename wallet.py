@@ -5,6 +5,7 @@ class Wallet:
         
     def setAmount(self, amount):
         self.balance = amount
+	return 0
     
     def getAmount(self):
         return self.balance
