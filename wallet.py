@@ -10,6 +10,7 @@ class Wallet:
     def getAmount(self):
         return self.balance
     
+	
     def removeAmount(self, amount):
         self.balance = self.balance - amount
 
