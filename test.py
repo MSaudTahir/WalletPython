@@ -2,8 +2,8 @@ from wallet import Wallet
 
 def test_getAmount():
   obj = Wallet()
-  obj.setAmount(500)
-  assert(obj.getAmount() == 500)
+  obj.setAmount(4000)
+  assert(obj.getAmount() == 400)
   
   
 def test_removeAmount():
